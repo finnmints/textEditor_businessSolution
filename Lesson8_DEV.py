@@ -10,6 +10,7 @@ def button1_clicked():
 	Label1.config(text="Updated 1!")
 def button2_clicked():
 	Label2.config(text="Updated 2!")
+def button3_clicked():
 	Label3.config(text="Updated 3!")
 def randomize():
 	textList = random.randint(1, 6)
