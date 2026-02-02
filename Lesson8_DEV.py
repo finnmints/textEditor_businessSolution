@@ -27,7 +27,6 @@ def randomize():
 	if textList==1:
 		button1.config(text="RANDOMLY PICKED!")
 	
-
 root.geometry("300x150")
 
 button1 = Button(root, text="Button 1!", command = button1_clicked)
