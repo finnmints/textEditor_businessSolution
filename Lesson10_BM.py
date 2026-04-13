@@ -4,6 +4,7 @@ from tkinter.ttk import *
 from time import strftime
 
 root = Tk()
+root.title("NoteBook")
 
 def Write_clicked():
 	with open("demofile.txt", "w") as f:
